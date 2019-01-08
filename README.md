@@ -1,5 +1,5 @@
 # sfpc-marquee
-A widget you can include to link out to everyone's wonderful blogs :sparkle: 
+A widget you can include to link out to everyone's wonderful blogs :sparkles: 
 
 
 ### General idea
