@@ -1,0 +1,23 @@
+{
+  "name": "sfpc-marquee",
+  "version": "1.0.0",
+  "description": "A widget you can include to link out to everyone's wonderful blogs :sparkles:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattohagan/sfpc-marquee.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattohagan/sfpc-marquee/issues"
+  },
+  "homepage": "https://github.com/mattohagan/sfpc-marquee#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
