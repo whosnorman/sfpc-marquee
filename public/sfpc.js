@@ -9,19 +9,19 @@ function httpGetAsync(theUrl, callback)
     xmlHttp.send(null);
 }
 
-httpGetAsync('http://localhost:5000/blogs', function(response){
+httpGetAsync('https://raw.githubusercontent.com/mattohagan/sfpc-marquee/master/blogs.json', function(response){
   console.log(response);
   let json = JSON.parse(response);
   let blogs = json.blogs;
-
 
   let html = ''
   for(let i = 0; i < blogs.length; i++){
     console.log(blogs[i]);
     let element = "<a href='" + blogs[i].url + "'>" + blogs[i].title + "</a>";
     html += element;
+    html += "<br>";
   }
 
   let sfpcElement = document.getElementById('sfpc-marquee');
-  element.innerHTML = sfpcElement;
+  sfpcElement.innerHTML = html;
 });
